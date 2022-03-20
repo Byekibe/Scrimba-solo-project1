@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h4, p {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.app {
+  margin: auto;
+  padding-top: 44px;
+  max-width: 550px;
+  height: 870px;
+  box-shadow: 0 4px 8px grey;
+  background-color: #23252C;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* info component */
+.image-container {
+  margin: 0px 117px 10px 116px;
+}
+
+.info-img {
+  width: 32vw;
+  display: flex;
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.image-container {
+  /* margin: 44px 117px 10px 116px; */
+}
+
+.btn-linked {
+  background-color: #5093E2;
+  margin: 5px;
+  border-radius: 5px;
+  padding:5px;
+  border: none;
+}
+
+.btn-mail {
+  margin: 5px;
+  padding:5px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: none;
+}
+
+/* InfoText styling */
+.infotext {
+  background-color: #1A1B21;
+  width: 317px;
+  margin: auto;
   display: flex;
   flex-direction: column;
+
+
+}
+
+
+
+.infotextname {
+  margin: 0;
+  padding: 0;
+}
+
+/* About styling */
+.about {
+  width: 317px;
+  margin: auto;
+  background-color: #1A1B21;
+}
+
+.about-title {
+  padding: 0;
+  margin: 0;
+}
+
+.about-paragraph {
+  padding: 0;
+  margin: 0;
+}
+/* Interest styling */
+
+.interest {
+  width: 317px;
+  margin: auto;
+  background-color: #1A1B21;
+}
+
+.interest-title {
+  padding: 0;
+  margin: 0;
+}
+
+/* footer styling */
+
+.footer {
+  display: flex;
+  width: 317px;
+  margin: auto;
+  padding: 10px;
+  height: 64px;
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer-ulist {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-list {
+  list-style-type: none;
+  margin: 10px;
+  align-items: space-around;
 }
